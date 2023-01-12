@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    font-weight: 500;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    font-weight: 400;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #777575;
+    margin: 0;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 5px;
+    text-align: center;
+}
+.li1{
+    display:inline-flex;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.li1 a{
+
+    color:#fffafa;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+img{
+    position: relative;
+    left: 270px;
+    bottom: 15px;
+    height: 600px;
+    width: 780px;
+    opacity: 0.9;
+    border-radius: 0 0 5px 5px ; 
+}
+h2{
+    position: relative;
+    left: 270px;
+    top: 10px;
+    color:rgb(0, 0, 0);
+    width: 780px;
+    height: 50px;
+    background-color: #acacac;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center; 
+    padding-top: 15px;
+}
+.h22{
+    position: relative;
+    left: 270px;
+    top: 100px;
+    color:rgb(0, 0, 0);
+    width: 780px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #acacac;
+    border-radius: 5px ; 
+    text-align: center;         
+}
+h3{
+    color: rgb(0, 0, 0);
+    size: 25px;
+    position:relative;
+    top: 50px;
+    left: 270px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    width: 810px;
+    text-justify: auto;
+}  
+.section1{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 320px;
+    width: 180px;
+    background-color: #646464;
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    justify-content: space-between;
+    border-radius: 0px 20px 0px 0px;
+    padding-right: 10px;
+}
+.section2{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 150px;
+    width: 180px;
+    background-color: #1a1818;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 380px;
+    left: 0;
+    padding: 20px 10px 0px 10px;
+    border-radius: 0px 0px 20px 0px;
+    padding-right: 10px;
+    
+}
+.img2{
+    float: left;
+    z-index: 1;
+    position: fixed;
+    top: 410px;
+    left: 65px;
+    height: 45px;
+    width: 45px;
+}
+.img3{
+    float: left;
+    z-index: 1;
+    position: fixed;
+    top: 460px;
+    left: 65px;
+    height: 45px;
+    width: 45px;
+}
+.img4{
+    float: left;
+    z-index: 1;
+    position: fixed;
+    top: 510px;
+    left: 65px;
+    height: 42px;
+    width: 42px;
+}      

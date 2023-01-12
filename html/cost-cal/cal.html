@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COST CAL</title>
+    <link rel="stylesheet" type="text/css" href="../cal.css">
+
+</head>
+<body>
+        <ul>
+            <li class="li1"><a href="../homepage.html">HOME</a></li>
+            <li class="li1"><a href="../top10.html" >TOP 10</a></li>
+            <li class="li1"><a href="../taxi.html" >TRANSPORT</a></li>
+            <li class="li1"><a href="../cal.html" >COST CALCULATOR</a></li>
+            <li class="li1"><a href="../hotels.html" >HOTELS</a></li>
+            <li class="li1"><a href="../foods.html" >FOODS</a></li>
+
+        </ul>
+    
+
+        <h2 class="h22">COST CALCULATION</h2>
+        <table>
+            <tr>
+                <td>Area</td>
+                <td>
+                    
+                    <select id="area"  required="required">
+                        <option value="" selected disabled>Select Area</option>
+                        <option value="1.5">Up country</option>
+                        <option value="1.3">Down south</option>
+                        <option value="1">Jaffna</option>
+                        <option value="0.9">Anuradhapura</option>
+                        <option value="1.6">Nuwaraeliya</option>
+    
+                    </select>
+                    
+                </td>
+                <td id="animation" rowspan="8"></td>
+            </tr>
+            <tr>
+                <td>Average Km from Horana (Km)</td>
+                <td>
+                    <form>
+                        <input class="input1" id="totalkm" type="number" min="20" max="2500" required>
+                        <label id="lable1"></label>
+                    </form>
+                </td>
+            </tr>
+            <tr>  
+                <td>Transport method</td>
+                <td>
+                    <form>
+                        <select  id="transport"  required >
+                            <option value="" selected disabled >Select vehicale</option>
+                            <option id="bike" value="15">Bike</option>
+                            <option id="wheel" value="40">Tuk Tuk</option>
+                            <option id="van" value="100">Van</option>
+                            <option id="car" value="70">Car</option>
+                            <option id="bus" value="120">Bus(Hire)</option>
+                            
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>No of Person</td>
+                <td>
+                    <form >
+                        <input class="input1" id="person" type="number" min="1" max="50" required>
+                        <label id="lable2"></label>
+                     
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>No of Days (Nights)</td>
+                <td>
+                    <form>
+                        <input id= "day" class="input1" type="number" min="1" max="7" required>
+                        <label id="lable3"></label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                        <button  id="calcost" onclick="clickevent()"> Calculate cost</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Cost Per Person</td>
+                <td id="ppcost" ></td>
+            </tr>
+            <tr>
+                <td>Total Cost</td>
+                <td id="totalcost"></td>
+            </tr>
+
+            <script src="costcal.js">
+            </script>
+
+        </table>
+
+        <p class="section1"><b>"Travel"</b> is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip. Travel can also include relatively short stays between successive movements, as in the case of tourism. <a href="https://en.wikipedia.org/wiki/Travel" style="color: white" target="_blank">wikipedia</a></p>
+        <p class="section2"><b></b></p>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="img2" src="../images/fb.png" alt="facebook" >
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="img3" src="../images/insta.png" alt="Instagram" >
+        </a>
+    
+        <a href="https://www.youtube.com/watch?v=mayAodn1mRA" target="_blank">
+            <img class="img4" src="../images/youtube.png" alt="youtube" >
+        </a>
+
+    
+</body>
+</html>
